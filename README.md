@@ -135,17 +135,17 @@ C:\PROJETOS\Automação\Postman\consultoria-automation-newman-nodeexpress-erp
 ```
 - Informar o comando abaixo para executar testes automatizados de API da collection e environment e Gerar relatório diretamente no terminal
 ```
-newman run nome-collection.json -e nome-environment.json 
+newman run ./nome-collection.json -e ./nome-environment.json 
 ```
 Ex.: 
 ```
 newman run ./AutomacaoPartners.postman_collection.json -e ./Partners.postman_environment.json 
 ```
 
-# :dart: Executar testes automatizados de API da collection e environment e Gerar relatório html na pasta "report" no computador
+# :dart: Executar testes automatizados de API da collection e environment e Gerar relatório html na pasta "docs" no computador
 - No cmder aberto anteriormente, informar o comando abaixo para executar testes automatizados de API da collection e environment e Gerar relatório html na pasta "report" no computador (comando semelhante ao que é utilizado no "Step 3" do "ERP Postman Automation API Test" em ".github > workflows > ci_ApiServerest.yml" no GitHub Actions)
 ```
-newman run nome-collection.json -e nome-environment.json --reporters cli, -r htmlextra --reporter-htmlextra-export ./docs/nome-report.html
+newman run ./nome-collection.json -e ./nome-environment.json --reporters cli, -r htmlextra --reporter-htmlextra-export ./docs/nome-report.html
 ```
 Ex.: 
 ```
@@ -154,7 +154,7 @@ newman run ./AutomacaoPartners.postman_collection.json -e ./Partners.postman_env
 - Fechar esse cmder
 
 ---
-# :female_detective: Verificar no navegador padrão o relatório html gerado na pasta "report" anteriormente no computador :male_detective: 
+# :female_detective: Verificar no navegador padrão o relatório html gerado na pasta "docs" anteriormente no computador :male_detective: 
 - Abrir uma janela do "Windows Explorer"
 - Acessar o diretório onde foi clonado o projeto “consultoria-automation-newman-nodeexpress-erp”
 
@@ -162,7 +162,7 @@ Ex.:
 ```
 C:\PROJETOS\Automação\Postman\consultoria-automation-newman-nodeexpress-erp
 ```
-- Acessar a pasta "report" 
+- Acessar a pasta "docs" 
 - Clicar 2 vezes sob o relatório "index.html" gerado anteriormente no computador para ser aberto e verificado no navegador padrão
 
 ---

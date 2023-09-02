@@ -1,6 +1,6 @@
-# squad01-automation-postman-nodeexpress-erp
+# consultoria-automation-postman-nodeexpress-erp
 
-## Squad01 automation postman nodeexpress erp
+## Consultoria automation postman nodeexpress erp
 Este repositório tem uma página de publicação do "report" do teste que utiliza o Github Pages para servir páginas estáticas. Esse relatório será renovado todas as vezes que o teste for realizado.
 
 
